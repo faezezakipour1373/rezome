@@ -1,0 +1,419 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  direction: rtl;
+  font-family: iransans;
+}
+@font-face {
+  font-family: iransans;
+  src: url(../woff2/IRANSansX-Medium.woff2);
+}
+@media (max-width: 976px) and (min-width: 767px) {
+.navbar-nav .nav-link{
+ font-size: 16px;gap: 0;
+  }
+
+}
+/*menu*/
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  
+}
+a.navbar-brand > img {
+  width: 60px;
+  border-radius: 25px;
+}
+nav.navbar {
+  background-image: linear-gradient(to right, #242427, hwb(0 0% 100%));
+}
+a.nav-link {
+  color: white;
+  font-size: 20px;
+}
+button.btnpr {
+  border: unset;
+  background-color: #1b1e21;
+  font-size: 20px;
+  box-shadow: 6px 6px 6px #626264;
+}
+span.fa-bars {
+  color: white;
+  font-size: 30px;
+}
+button.navbar-toggler {
+  border: unset;
+}
+/*banner*/
+section.banner {
+  background-image: linear-gradient(to right, #242427, hwb(0 0% 100%));
+}
+
+.imgme {
+  width: 400px;
+  border-radius: 15px;
+}
+
+.matn > h2 {
+  color: #f3ba11;
+  font-size: 40px;
+}
+div.matn > p {
+  text-align: justify;
+  line-height: 32px;
+  font-size: 20px;
+}
+a:hover {
+  color: #f3ba11 !important ;
+}
+.imgme {
+  transform: translate(0px, 0px);
+  transition: all 300ms linear;
+  object-fit: contain;
+}
+.imgme:hover {
+  transform: translate(30px, 30px);
+}
+
+.nav-item > button:hover {
+  color: #f3ba11 !important;
+}
+.matn > a > img {
+  width: 25px;
+  height: 35px;
+  margin: 5px 15px;
+}
+
+/*darbareman*/
+section.darbareman {
+  background-image: linear-gradient(to right, #161616, hwb(0 0% 100%));
+}
+
+.dbr > h2 {
+  color:  #f3ba11;
+  font-size: 50px;
+}
+.dbr > p {
+  text-align: justify;
+  line-height: 32px;
+  font-size: 20px;
+}
+.porozhe {
+  background: rgba(240, 217, 141, 0);
+  height: 240px;
+  width: 340px;
+  border-radius: 10px;
+  border: solid 5px #424244;
+}
+.porozhe2 :hover {
+  background-color: #f3bb1191;
+}
+a.btprz{
+  background-color: #1b1e21;
+  padding: 10px 25px;
+  border-radius: 25px;
+}
+
+/*maharat project*/
+section.project {
+  background: url(../media/backlaptap.jpg) center center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 700px;
+  object-fit: cover;
+  transition: all 300ms linear;
+  transition-delay: 1s;
+}
+section.project:hover {
+  background-image: url(../media/nody-تصویر-زمینه-مشکی-طلایی-1629306857\ \(1\).png);
+}
+
+/*maharat*/
+@media (max-width: 767px) and (min-width: 100px) {
+  section.project{
+height: 980px;  }
+  
+  }
+  /*maharat*/
+@media (max-width: 767px) and (min-width: 100px) {
+  section.maharat {
+padding-bottom: 20px;  }
+  
+  }
+section.maharat {
+  background: url(../media/backlaptap.jpg) center center;
+  background-attachment: fixed;
+  background-size: cover;
+  object-fit: cover;
+  transition: all 300ms linear;
+  transition-delay: 1s;
+}
+section.maharat:hover {
+  background-image: url(../media/nody-تصویر-زمینه-مشکی-طلایی-1629306857\ \(1\).png);
+}
+
+.skill {
+  width: 180px;
+  height: 180px;
+  display: grid;
+  position: relative;
+  place-items: center;
+  border-radius: 50%;
+  box-shadow: 5px 5px 10px #030303;
+}
+
+.skill {
+   background: conic-gradient(#c99b12 95%, transparent 0);
+}
+.skill1 {
+  background: conic-gradient(#c99b12 95%, transparent 0);
+}
+.skill2 {
+  background: conic-gradient(#c99b12 95%, transparent 0);
+}
+
+.skill1 {
+  width: 180px;
+  height: 180px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  box-shadow: 5px 5px 10px #030303;
+  position: relative;
+}
+
+.skill2 {
+  width: 180px;
+  height: 180px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  box-shadow: 5px 5px 10px #030303;
+  position: relative;
+}
+.skill::before {
+  content: " ";
+  background-color: #1b1e21;
+  position: absolute;
+  width: 85%;
+  height: 85%;
+  border-radius: 50%;
+  -webkit-border-redius: 50%;
+  -moz-border-redius: 50%;
+  -o-border-redius: 50%;
+}
+.content {
+  color: #ffffff;
+  position: absolute;
+  text-align: center;
+  user-select: none;
+}
+.content span {
+  display: block;
+}
+.content:hover span {
+  color: #f3ba11;
+}
+.skill1::before {
+  content: " ";
+  background-color: #1b1e21;
+  position: absolute;
+  width: 85%;
+  height: 85%;
+  border-radius: 50%;
+  -webkit-border-redius: 50%;
+  -moz-border-redius: 50%;
+  -o-border-redius: 50%;
+}
+.skill2::before {
+  content: " ";
+  background-color: #1b1e21;
+  position: absolute;
+  width: 85%;
+  height: 85%;
+  border-radius: 50%;
+  -webkit-border-redius: 50%;
+  -moz-border-redius: 50%;
+  -o-border-redius: 50%;
+}
+
+section.nemunekar {
+  background-image: linear-gradient(to right, #242427, hwb(0 0% 100%));
+}
+a.btnplay {
+  background-color: #bdbdc5;
+  padding: 10px 15px;
+  border-radius: 25px;
+  color: #242427;
+}
+h1.ptext {
+  position: relative;
+}
+h1.ptext::before {
+  display: block;
+  content: " ";
+  width: 250px;
+  height: 5px;
+  background-color: goldenrod;
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+h1.ptext::after {
+  display: block;
+  content: " ";
+  width: 20px;
+  height: 20px;
+  background-color: goldenrod;
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.ptext {
+  color: goldenrod;
+}
+
+/*nemunekar*/
+.kar {
+  width: 300px;
+  height: 500px;
+  background-color: #242427;
+  position: relative;
+  overflow: hidden;
+  background-image: url(../media/پس-زمینه-کدینگ-1024x576.jpg);
+  background-position: center center;
+}
+
+.kar > img {
+  width: 320px;
+  height: 500px;
+}
+.kar1 {
+  width: 100%;
+  height: 0px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #414142b4;
+  transition: all 300ms linear;
+}
+.kar:hover > .kar1 {
+  height: 500px;
+}
+.kar1 * {
+  opacity: 0;
+}
+.kar1:hover * {
+  opacity: 1;
+}
+.kar1 > img {
+  transition: all 300ms linear;
+  transition-delay: 500ms;
+}
+
+.kar1 > h5 {
+  transition: all 300ms linear;
+  transition-delay: 700ms;
+}
+.kar1 > span {
+  transition: all 300ms linear;
+  transition-delay: 1000ms;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+.play:hover {
+  color: #f3ba11;
+}
+/*weblog*/
+.web2 {
+  background: url(../media/backlaptap.jpg) center center;
+  background-size: cover;
+  width: 100%;
+ 
+
+}
+
+.web{
+  align-items: center;
+}
+
+
+
+
+
+
+
+/*ertebat*/
+
+.tamas {
+  background-image: linear-gradient(to right, #242427, hwb(0 0% 100%));
+}
+.ax3 {
+  width: 30px;
+}
+
+@media (max-width: 576px) and (min-width: 370px) {
+  div.tamas1 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .left2 {
+    width: 300px;
+  }
+}
+@media (max-width: 370px) and (min-width: 100px) {
+  div.tamas1 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .left2 {
+    width: 300px;
+  }
+}
+@media (max-width: 1200px) and (min-width: 992px) {
+  .right2 {
+    margin-left: 30px;
+    font-size: small;
+  }
+  .left2 {
+    width: 100%;
+  }
+}
+@media (max-width: 992px) and (min-width: 767px) {
+  .right2 {
+    margin-left: 10px;
+    font-size: x-small;
+  }
+}
+
+
+
+.t3 > h6 {
+  color: #f3ba11;
+}
+.right2 > h4 {
+  color: #f3ba11;
+  font-size: x-large;
+  text-decoration-color: #3c0235;
+}
+
+.btn10 {
+  background-color: #201e1ec8 !important;
+  color: #f3ba11 !important;
+}
+.btn10:hover {
+  background-color: #f3ba11 !important;
+  color: #ffffff !important;
+}
+/*footer*/
+section.footer{
+  background-image: linear-gradient(to right, #161616, hwb(0 0% 100%));
+}

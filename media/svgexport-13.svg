@@ -1,0 +1,6 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="34" height="54" viewBox="0 0 34 54">
+            <g transform="translate(-10)" fill="#FFFFFF">
+                <path id="Path_1" data-name="Path 1" d="M27.707,7.293a1,1,0,0,0-1.414,0l-16,16a1,1,0,1,0,1.414,1.414L26,10.414V53a1,1,0,0,0,2,0V10.414L42.293,24.707a1,1,0,1,0,1.414-1.414Z" fill="#FFFFFF"></path>
+                <path id="Path_2" data-name="Path 2" d="M11,2H43a1,1,0,0,0,0-2H11a1,1,0,0,0,0,2Z" fill="#FFFFFF"></path>
+            </g>
+        </svg>

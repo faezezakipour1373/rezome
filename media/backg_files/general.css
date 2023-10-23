@@ -1,0 +1,192 @@
+body {
+  --ae-color-white: white;
+  --ae-color-white-gray-low: #f2f2f2;
+  --ae-color-white-gray: #eaeaea;
+  --ae-color-white-gray-high: #d0d0d0;
+  --ae-color-dark-low: #353535;
+  --ae-color-dark: #252525;
+  --ae-color-dark-high: #111111;
+  --ae-color-gray-low: #aaaaaa;
+  --ae-color-gray: #888888;
+  --ae-color-gray-high: #666666;
+  --ae-color-main-1: #FFB84C;
+  --ae-color-main-2: #F16767;
+  --ae-color-main-3: #A459D1;
+}
+
+body.rtl {
+  -moz-font-feature-settings: "ss01", "ss02";
+  -webkit-font-feature-settings: "ss01", "ss02";
+  font-feature-settings: "ss01", "ss02";
+}
+
+.dfx {
+  display: flex;
+}
+
+.ais {
+  align-items: flex-start;
+}
+
+.aic {
+  align-items: center;
+}
+
+.aie {
+  align-items: flex-end;
+}
+
+.jcs {
+  justify-content: flex-start;
+}
+
+.jcc {
+  justify-content: center;
+}
+
+.jce {
+  justify-content: flex-end;
+}
+
+.jcsb {
+  justify-content: space-between;
+}
+
+.dir-v {
+  flex-direction: column;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.d-grid {
+  display: grid;
+}
+
+.w100 {
+  width: 100%;
+}
+
+.ae-gap-0 {
+  gap: 0px;
+}
+.ae-gap-5 {
+  gap: 5px;
+}
+.ae-gap-7 {
+  gap: 7px;
+}
+.ae-gap-10 {
+  gap: 10px;
+}
+.ae-gap-15 {
+  gap: 15px;
+}
+.ae-gap-20 {
+  gap: 20px;
+}
+.ae-gap-25 {
+  gap: 25px;
+}
+.ae-gap-30 {
+  gap: 30px;
+}
+
+.wp-active-we-linear-icon-box {
+  display: inline-flex;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.trans03 {
+  transition: all 0.3s;
+}
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  transition: all 0.3s;
+  background: white;
+}
+.owl-carousel .owl-nav button.owl-next svg,
+.owl-carousel .owl-nav button.owl-prev svg {
+  transition: all 0.3s;
+}
+.owl-carousel .owl-nav button.owl-next.disabled,
+.owl-carousel .owl-nav button.owl-prev.disabled {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.owl-carousel .owl-nav button:focus {
+  outline: none;
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+  right: -10px;
+  left: auto;
+}
+
+.owl-carousel .owl-nav button.owl-next {
+  left: -10px;
+  right: auto;
+}
+
+.owl-dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.owl-dots button:focus {
+  outline: none;
+}
+
+body:not(.rtl) .owl-carousel.owl-rtl .owl-item {
+  direction: ltr;
+}
+
+button {
+  outline: none;
+}
+button:focus {
+  outline: none;
+}
+
+.image-holder {
+  overflow: hidden;
+}
+.image-holder img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.wp-active-we-icon-box .icon i, .wp-active-we-icon-box .icon svg, .wp-active-we-icon-box .icon img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item-has-intro-animation {
+  transform: rotateY(90deg) translateX(150px) scale(0.9);
+  opacity: 0;
+  transition: all 0.5s;
+}
+.item-has-intro-animation.show {
+  transform: rotateY(0) translateX(0) scale(1);
+  opacity: 1;
+}
+
+/*# sourceMappingURL=general.css.map */

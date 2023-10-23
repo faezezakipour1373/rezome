@@ -1,0 +1,27 @@
+(function ($) {
+    'use strict';
+
+    $.fn.inViewPort = function (options) {
+
+        let settings = $.extend({
+            className: 'show',
+            offset: 0
+        }, options)
+
+        let allElements = $(this)
+
+        let windowHeight = window.innerHeight;
+        const elems = () => {
+            for (let i = 0; i < allElements.length; i++) {  //  loop through the elements
+                let viewportOffset = allElements[i].getBoundingClientRect();  //  returns the size of an element and its position relative to the viewport
+                let top = viewportOffset.top + settings.offset;  //  get the offset top
+                if(top < windowHeight){  //  if the top offset is less than the window height
+                    $(allElements[i]).addClass(settings.className);  //  add the class
+                }
+            }
+        }
+        elems();
+        window.addEventListener('scroll', elems);
+    }
+
+}(jQuery))

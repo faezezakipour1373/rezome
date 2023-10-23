@@ -1,0 +1,37 @@
+(function ($, elementor) {
+    'use strict';
+
+    let ProjectsGalleryScope = function ($scope, $) {
+
+        let ProjectsGallery2 = $scope.find('.wp-active-we-projects-gallery')
+        if (!ProjectsGallery2.length) {
+            return
+        }
+
+        const filters = ProjectsGallery2.find('.filter-buttons button')
+        const projectItems = ProjectsGallery2.find('.projects-inner .project-item')
+
+        filters.click(function () {
+            const _this = $(this)
+            if (!_this.hasClass('active')) {
+                filters.removeClass('active')
+                _this.addClass('active')
+                projectItems.each(function (value) {
+                    if ($(projectItems[value]).hasClass(_this.data('class-name'))) {
+                        ProjectsGallery2.find('.projects-inner '+_this.data('filter')).show('fast')
+                    } else {
+                        $(projectItems[value]).hide('fast')
+                    }
+                })
+            }
+        })
+
+    }
+
+    jQuery(window).on('elementor/frontend/init', function () {
+        elementorFrontend.hooks.addAction('frontend/element_ready/WP_ACTIVE_WE_ProjectsGallery2.default', ProjectsGalleryScope)
+        elementorFrontend.hooks.addAction('frontend/element_ready/WP_ACTIVE_WE_ProjectsGallery3.default', ProjectsGalleryScope)
+        elementorFrontend.hooks.addAction('frontend/element_ready/WP_ACTIVE_WE_ProjectsGallery4.default', ProjectsGalleryScope)
+    });
+
+}(jQuery, window.elementorFrontend))

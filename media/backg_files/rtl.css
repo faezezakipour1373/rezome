@@ -1,0 +1,330 @@
+@font-face {
+	font-family: iransans;
+	font-style: normal;
+	font-weight: normal;
+	src: url('fonts/IRANSansWebFaNum.eot');
+	src: url('fonts/IRANSansWebFaNum.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/IRANSansWebFaNum.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/IRANSansWebFaNum.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('fonts/IRANSansWebFaNum.ttf') format('truetype');
+}
+
+
+
+
+body { font-family: 'iransans' !important; }
+.site-title, h1, h2, h3, h4, h5, h6 { font-family: 'iransans' !important; }
+button, input, select, textarea { font-family: 'iransans' !important; }
+.site-title { font-family: 'iransans' !important; }
+.site-description { font-family: 'iransans' !important; }
+.menu, .page_item, .menu-item, .menu-item li, .menu-item a { font-family: 'iransans' !important; }
+article h1, article h2, article h3, article h4, article h5, article h6 { font-family: 'iransans' !important; }
+article { font-family: 'iransans' !important; }
+.widget h1, .widget h2, .widget h3, .widget h4, .widget h5, .widget h6 { font-family: 'iransans' !important; }
+.widget { font-family: 'iransans' !important; }
+footer h1, footer h2, footer h3, footer h4, .widgets-area h5, footer h6 { font-family: 'iransans' !important; }
+footer { font-family: 'iransans' !important; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+	direction: rtl;
+}
+
+.navbar .brand {
+    float: right;
+}
+.navbar-toggle {
+    float: left;
+}
+/*..............
+.sidebar-menu {
+    left: 0;
+    right: auto;
+}
+................*/
+
+.menu-lang a {
+    margin-right: 1.5rem;
+    margin-left: 0;
+}
+.menu-lang a:first-child {
+    margin-right: 0;
+}
+.menu-footer .social-list a {
+    float: right;
+}
+.menu-footer .social-list a {
+	margin-left: 2.7rem;
+	margin-right: 0;
+}
+.social-list a {
+    margin-right: 2rem;
+    margin-left: 0;
+}
+.vertical-title {
+    right: 4.9rem;
+    left: 0;
+}
+.lang-bottom {
+    left: 0;
+    right: auto;
+}
+.copy-bottom {
+    left: auto;
+    right: 0;
+}
+.brand img {
+    margin-left: .65rem;
+    margin-right: 0;
+}
+.navbar-2 .social-list {
+    float: right;
+    margin-right: 7.5rem;
+}
+.navbar .social-list {
+    margin-left: 10%;
+}
+/*........................progress-bar.......................*/
+.progress-bar {
+    float: right;
+}
+.progress-bars .pull-left {
+    float: right !important;
+}
+.pull-right {
+    float: left !important;
+}
+/*...............................................*/
+@media (min-width: 992px){
+.boxed-inner .boxed {
+    padding-right: 6rem;
+    padding-left: 4.2857rem;
+}}
+.service-list {
+    padding-right: 0;
+}
+.dots-image-2 .experience-info {
+    right: 12%;
+    left: auto;
+}
+.experience-info .number {
+    margin-left: 1.7rem;
+    margin-right: 0;
+}
+.experience-info {
+    margin: -1rem .8rem 0 0;
+}
+/*................................................................................chek..............................................................................*/
+
+@media (min-width: 1200px){
+.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: right;
+}}
+@media (min-width: 1200px){
+.col-lg-offset-2 {
+    margin-right: 16.66666667%;
+    margin-left: 0;
+}}
+@media (min-width: 992px){
+.col-md-offset-1 {
+    margin-right: 8.33333333%;
+    margin-left: 0;
+}}
+@media (min-width: 992px){
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: right;
+}}
+
+/*..............................................................................................................................................................*/
+.resume-content {
+    padding: 1.5rem 3rem 1.5rem 1.5rem;
+}
+.resume-inner {
+    border-right: 1px solid #525252;
+    padding-right: 3rem;
+    border-left: 0;
+    padding-left: 0;
+}
+.resume-row:after {
+    right: -3.5rem;
+    left: auto;
+}
+.review-carousel .owl-prev:before {
+    content: "\e93c";
+}
+.review-carousel .owl-next:before {
+    content: "\e93b";
+}
+.review-carousel .owl-prev, .review-carousel .owl-next {
+    margin-left: .857rem;
+    margin-right: 0;
+}
+.review-carousel.owl-carousel.owl-loaded {
+    direction: ltr;
+}
+.review-carousel-item {
+    direction: rtl;
+}
+.review-carousel .owl-nav {
+    direction: rtl;
+}
+.wpcf7 {
+    direction: rtl;
+}
+.wpcf7 input[type="url"], .wpcf7 input[type="email"], .wpcf7 input[type="tel"] {
+    direction: rtl;
+}
+.blog-thumbnail-bg {
+    right: 0;
+    left: 5px;
+    border-radius: 0 .25em .25em 0;
+}
+.blog-rubric {
+	letter-spacing: 0;
+	font-family: inherit;
+}
+.blog-meta .pull-left {
+    float: right !important;
+}
+@media (min-width: 992px){
+.secondary {
+    padding: .5rem 6rem 0 0;
+}}
+.icon-arrow-right:before {
+    content: "\e943";
+}
+.widget-title {
+	letter-spacing: 0;
+}
+.widget ul {
+    padding-right: 0;
+}
+.post-rubric {
+    letter-spacing: 0;
+    float: right;
+    margin: 0 0 0 2em;
+}
+.post-date ,.post-author {
+    font-family: iransans;
+    float: left;
+}
+.blog-tags a {
+    margin-left: .2em;
+    margin-right: 0;
+}
+.comment-author .avatar {
+    float: right;
+    margin-left: .875em;
+    margin-right: 0;
+}
+.comment-author {
+    font-family: inherit;
+}
+.comment-list .children {
+    padding-right: 2em;
+    padding-left: 40px;
+}
+.user {
+    font-family: 'iransans' !important;
+    letter-spacing: 0;
+}
+.sidebar-menu .menu-lang {
+    right: 15%;
+    left: auto;
+}
+.menu-list {
+    padding-right: 15%;
+    padding-left: 0;
+}
+@media (min-width: 992px){
+.right-boxed.hidden-xs {
+    left: 4.2857rem;
+    right: auto;
+}}
+@media (min-width: 992px){
+.close-menu.right-boxed {
+    left: 4.2857rem;
+    right: auto;
+}}
+.close-menu.right-boxed {
+    left: 1.7rem;
+    right: auto;
+}
+.menu-list.right-boxed {
+    left: 1.7rem;
+}
+.menu-list {
+    right: 0;
+}
+.menu-footer {
+    right: 15%;
+}
+.menu-footer.right-boxed {
+    left: 1.7rem;
+}
+.project-carousel.owl-carousel.owl-loaded {
+    direction: ltr;
+}
+.project-carousel-item {
+    direction: rtl;
+}
+.project-detail-list li .left {
+    float: right;
+}
+.project-detail-list li .right {
+    float: left;
+}
+@media (min-width: 768px){
+.pull-sm-left {
+    float: right;
+}}
+@media (min-width: 768px){
+.project-detail-meta .social-list.pull-sm-right {
+    float: left;
+}}
+.project-detail-list {
+    padding-right: 0;
+}
+.subtitle-top {
+    letter-spacing: 0;
+}
+
+.blog-meta {
+    font-family: inherit !important;
+}
+.bypostauthor>article .fn:after {
+    content: "";
+}
+@media (min-width: 768px){
+.wpcf7 .form-group.col-sm-6 {
+    float: right;
+}
+}
+
+.menu-is-opened .sidebar-menu {
+    -webkit-transform: translateX(-1%);
+    -ms-transform: translateX(-1%);
+    -o-transform: translateX(-1%);
+    transform: translateX(-1%);
+}
+
+
+.sidebar-menu {
+    left: 0;
+    right: auto;
+    -webkit-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    transform: translateX(-100%);
+}
